@@ -1,0 +1,419 @@
+[0.009s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/rm_auto_aim-main/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.217s] -- Detecting CXX compile features
+[0.217s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.380s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.742s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.139s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.158s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.158s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.158s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.173s] -- Found PythonExtra: .so  
+[1.214s] -- Configuring done
+[1.243s] -- Generating done
+[1.244s] -- Build files have been written to: /home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces
+[1.252s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/rm_auto_aim-main/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces
+[1.253s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces -- -j12 -l12
+[1.284s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.291s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.297s] [  2%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[1.472s] running egg_info
+[1.473s] creating auto_aim_interfaces.egg-info
+[1.473s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[1.473s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[1.473s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[1.473s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.475s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.475s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.499s] [  2%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.783s] [  2%] Built target auto_aim_interfaces__cpp
+[1.791s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.799s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.800s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.836s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[1.836s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[1.836s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[1.840s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[1.840s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[1.841s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[1.841s] [ 13%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[1.847s] [ 14%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[1.919s] [ 16%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[1.951s] [ 16%] Built target auto_aim_interfaces__rosidl_generator_c
+[1.960s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.963s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.963s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.162s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.162s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.162s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.165s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.165s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.170s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.172s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.557s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.610s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.614s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.616s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.617s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.656s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[2.661s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.664s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[2.671s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[2.671s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[2.676s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[2.680s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[2.681s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[2.700s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[2.706s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[2.714s] [ 45%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.717s] [ 47%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[2.744s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[2.753s] [ 49%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.778s] [ 50%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[2.849s] [ 52%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[2.852s] [ 52%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[2.882s] [ 52%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[2.912s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[2.946s] [ 55%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[2.983s] [ 56%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[3.026s] [ 57%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[3.083s] [ 57%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[3.104s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[3.128s] [ 59%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[3.181s] [ 60%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[3.218s] [ 62%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[3.241s] [ 63%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[3.279s] [ 64%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[3.300s] [ 65%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[3.309s] [ 66%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.357s] [ 67%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[3.358s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[3.387s] [ 68%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[3.389s] [ 70%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[3.412s] [ 71%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[3.433s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[3.446s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[3.482s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[3.493s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[3.662s] [ 77%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[3.771s] [ 78%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[4.004s] [ 79%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.056s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.106s] [ 80%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.126s] [ 80%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[4.140s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.199s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[4.214s] [ 81%] Built target auto_aim_interfaces
+[4.230s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.922s] [ 82%] Built target auto_aim_interfaces__py
+[4.940s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[4.940s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[4.941s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[4.941s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[4.941s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[4.942s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[4.942s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[4.942s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[5.067s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[5.098s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[5.113s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.113s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.113s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.194s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.194s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.194s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.223s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[5.223s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.223s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.232s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces -- -j12 -l12
+[5.359s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces
+[5.365s] -- Install configuration: ""
+[5.365s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.c
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[5.366s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[5.367s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[5.368s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[5.368s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.368s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.368s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[5.368s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.369s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.369s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.369s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.369s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.c
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[5.369s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[5.370s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[5.370s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[5.370s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.370s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[5.370s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[5.371s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[5.371s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[5.372s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.372s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.372s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[5.372s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.373s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.373s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[5.373s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[5.373s] -- Up-to-date: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp
+[5.373s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.374s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[5.374s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info
+[5.374s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[5.375s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[5.376s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.403s] Listing '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[5.403s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[5.403s] Listing '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[5.403s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[5.403s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py'...
+[5.403s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py'...
+[5.403s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py'...
+[5.404s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py'...
+[5.404s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[5.404s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[5.404s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py'...
+[5.404s] Compiling '/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py'...
+[5.406s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.406s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[5.407s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[5.407s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[5.408s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.409s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.410s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[5.411s] -- Installing: /home/huangshuqi/RM-Vision-main/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[5.413s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/auto_aim_interfaces

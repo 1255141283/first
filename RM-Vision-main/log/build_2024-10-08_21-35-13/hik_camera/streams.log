@@ -1,0 +1,88 @@
+[0.007s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/ros2_hik_camera-main -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/hik_camera
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.215s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.461s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.464s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.537s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.659s] -- Looking for pthread.h
+[0.709s] -- Looking for pthread.h - found
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.759s] -- Found Threads: TRUE  
+[1.051s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.063s] -- Configured cppcheck include dirs: /home/huangshuqi/RM-Vision-main/src/ros2_hik_camera-main/hikSDK/include
+[1.063s] -- Configured cppcheck exclude dirs and/or files: 
+[1.063s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.063s] -- Added test 'lint_cmake' to check CMake code style
+[1.064s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.064s] -- Added test 'xmllint' to check XML markup files
+[1.065s] -- Configuring done
+[1.074s] -- Generating done
+[1.075s] -- Build files have been written to: /home/huangshuqi/RM-Vision-main/build/hik_camera
+[1.082s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/ros2_hik_camera-main -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/hik_camera
+[1.084s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/hik_camera -- -j12 -l12
+[1.122s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[1.122s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[4.618s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[4.709s] [ 75%] Built target hik_camera_node
+[4.880s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[5.036s] [100%] Built target hik_camera
+[5.047s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/hik_camera -- -j12 -l12
+[5.068s] Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/hik_camera
+[5.074s] -- Install configuration: ""
+[5.074s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib
+[5.074s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libMediaProcess.so
+[5.075s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libMVRender.so
+[5.076s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libMvUsb3vTL.so
+[5.079s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libMvCameraControl.so
+[5.083s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libFormatConversion.so
+[5.083s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/hik_camera/hik_camera_node
+[5.083s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/hik_camera/lib/hik_camera/hik_camera_node" to ""
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/library_path.sh
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libhik_camera.so
+[5.084s] -- Set runtime path of "/home/huangshuqi/RM-Vision-main/install/hik_camera/lib/libhik_camera.so" to ""
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/config
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/launch
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[5.084s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/path.sh
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/environment/path.dsv
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/local_setup.bash
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/local_setup.sh
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/local_setup.zsh
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/local_setup.dsv
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/package.dsv
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[5.085s] -- Installing: /home/huangshuqi/RM-Vision-main/install/hik_camera/share/hik_camera/package.xml
+[5.087s] Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/hik_camera

@@ -1,0 +1,6 @@
+Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/ros2_hik_camera-main -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/hik_camera
+Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/huangshuqi/RM-Vision-main/src/ros2_hik_camera-main -DCMAKE_INSTALL_PREFIX=/home/huangshuqi/RM-Vision-main/install/hik_camera
+Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/hik_camera -- -j12 -l12
+Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/huangshuqi/RM-Vision-main/build/hik_camera -- -j12 -l12
+Invoking command in '/home/huangshuqi/RM-Vision-main/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/hik_camera
+Invoked command in '/home/huangshuqi/RM-Vision-main/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/huangshuqi/RM-Vision-main/build/hik_camera
