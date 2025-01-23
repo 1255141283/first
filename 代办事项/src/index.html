@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>待办事项清单</h1>
+            <p class="date-display" id="current-date"></p>
+        </header>
+        
+        <form id="todo-form">
+            <div class="form-group">
+                <input 
+                    type="text" 
+                    id="todo-input" 
+                    placeholder="添加新的待办事项..."
+                    required
+                >
+                <select id="todo-priority">
+                    <option value="normal">普通</option>
+                    <option value="important">重要</option>
+                    <option value="urgent">紧急</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input
+                    type="datetime-local"
+                    id="todo-datetime"
+                    required
+                >
+                <input
+                    type="text"
+                    id="todo-category"
+                    placeholder="分类（可选）"
+                    list="category-suggestions"
+                >
+            </div>
+            <div class="form-group">
+                <textarea
+                    id="todo-description"
+                    placeholder="添加描述（可选）"
+                    rows="2"
+                ></textarea>
+            </div>
+            <button type="submit">添加</button>
+        </form>
+
+        <div class="todo-container">
+            <div class="todo-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="active">未完成</button>
+                <button class="filter-btn" data-filter="completed">已完成</button>
+                <button class="filter-btn" data-filter="overdue">已过期</button>
+                <button class="filter-btn" data-filter="important">重要</button>
+                <button id="batch-generate-btn" class="special-btn">批量生成</button>
+            </div>
+
+            <div class="todo-sort">
+                <select id="sort-select">
+                    <option value="time">按时间排序</option>
+                    <option value="priority">按优先级排序</option>
+                    <option value="category">按分类排序</option>
+                </select>
+            </div>
+
+            <ul id="todo-list"></ul>
+
+            <div class="todo-stats">
+                <span id="todo-count">剩余项目: 0</span>
+                <span id="todo-categories"></span>
+                <button id="clear-completed">清除已完成</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 批量生成模态框 -->
+    <div id="batch-modal" class="modal">
+        <div class="modal-content">
+            <h2>批量生成待办事项</h2>
+            <div class="form-group">
+                <label>生成数量：</label>
+                <input type="number" id="batch-count" min="1" max="50" value="5">
+            </div>
+            <div class="form-group">
+                <label>类型选择：</label>
+                <select id="batch-type">
+                    <option value="work">工作任务</option>
+                    <option value="study">学习任务</option>
+                    <option value="life">生活任务</option>
+                    <option value="exercise">运动任务</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>时间范围：</label>
+                <select id="batch-time-range">
+                    <option value="today">今天内</option>
+                    <option value="week">本周内</option>
+                    <option value="month">本月内</option>
+                </select>
+            </div>
+            <div class="modal-buttons">
+                <button id="generate-confirm" class="primary-btn">生成</button>
+                <button id="generate-cancel" class="secondary-btn">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <datalist id="category-suggestions">
+        <option value="工作">
+        <option value="学习">
+        <option value="生活">
+        <option value="运动">
+        <option value="娱乐">
+        <option value="购物">
+        <option value="阅读">
+        <option value="旅行">
+    </datalist>
+
+    <script src="script.js"></script>
+</body>
+</html> 
